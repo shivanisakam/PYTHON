@@ -1,0 +1,13 @@
+x=10
+y=5
+ht=30
+at=0
+min=0
+while(at!=ht):
+    min=min+1
+    if(min%2==0):
+        at=at-y
+    else:
+        at=at+x
+print(min)
+
