@@ -1,0 +1,4 @@
+person = {"name": "Ravi", "age": 25, "city": "Chennai"}
+items = list(person.items())
+print(items[0])
+print(items[0][1])
