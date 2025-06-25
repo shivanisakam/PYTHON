@@ -1,0 +1,9 @@
+def rcb():
+    return 3
+def mi(a):
+    return a+4
+def csk():
+    return [2,3,3]
+    
+for i in range(rcb(),mi(5),len(csk())):
+    print("hai")
