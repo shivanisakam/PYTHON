@@ -1,0 +1,8 @@
+def abc(n):
+    if n==1:
+        return 1
+    b=abc(n-1)
+    print("hai")
+    return b+2
+a=abc(4)
+print(a)
