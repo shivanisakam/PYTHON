@@ -1,0 +1,5 @@
+class animal:
+    def sound(self):
+        print("all animal makes noise.")
+ani = animal()
+ani.sound()
