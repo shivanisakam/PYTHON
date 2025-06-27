@@ -1,0 +1,11 @@
+import difflib
+valid_words = ["ROHAN", "AKASH", "SHANKAR", "RAMESH", "SHIVA"]
+input_word = input("Enter your word: ").strip().upper()
+if input_word in valid_words:
+    print("Word is valid!")
+else:
+    closest_matches = difflib.get_close_matches(input_word, valid_words, n=1, cutoff=0.6)
+    if closest_matches:
+        print(f'Did you mean "{closest_matches[0]}" ??')
+    else:
+        print("No similar word found.")
