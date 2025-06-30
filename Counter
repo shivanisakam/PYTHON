@@ -1,0 +1,9 @@
+from collections import Counter
+a=[1,2,3,4,1,4,4,4]
+b=[1,4,4,5]
+a1=Counter(a)
+b1=Counter(b)
+c=a1&b1
+for i in c:
+     print(i)
+print(c[1])
