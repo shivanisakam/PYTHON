@@ -1,0 +1,10 @@
+
+
+import pandas as pd
+df=pd.read_excel('students.xlsx')
+df['marks']=df['marks']+5
+print(df)
+df.to_excel('student_update.xlsx', index=False)
+
+
+in pycham
